@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="email_client=true,hasWorkflow=true,live_feed=true,all_tables.query_hints=true" audit="true" db_object_id="de3e0c68d9b13110cedf7dffddb48fd6" extends="task" label="Incident" max_length="40" name="incident" text_index="true" type="collection">
+        <element choice="3" default="OptionB" label="MyColumn" max_length="40" name="x_58872_needit_mycolumn" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="OptionA" value="OptionA"/>
+                <element inactive_on_update="false" label="OptionC" value="OptionC"/>
+                <element inactive_on_update="false" label="OptionB" value="OptionB"/>
+            </choice>
+        </element>
+    </element>
+</database>
